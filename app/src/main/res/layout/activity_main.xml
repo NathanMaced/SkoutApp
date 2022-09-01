@@ -12,16 +12,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_gravity="center"
-        android:src="@drawable/spfc" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Usuario"
-        android:textAllCaps="true"
-        android:textColor="black"
-        android:textSize="25sp"
-        android:textStyle="bold" />
+        android:src="@drawable/marvel" />
 
     <EditText
         android:layout_width="match_parent"
@@ -32,20 +23,11 @@
         android:maxLength="100"
         tools:ignore="TouchTargetSizeCheck" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Senha"
-        android:textAllCaps="true"
-        android:textColor="@color/corTitulo"
-        android:textSize="25sp"
-        android:textStyle="bold" />
-
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Insira a senha"
+        android:layout_margin="10dp"
         android:inputType="textPassword"
         android:maxLength="100"
         tools:ignore="TouchTargetSizeCheck" />
