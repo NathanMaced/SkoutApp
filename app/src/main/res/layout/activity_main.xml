@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="25dp"
+    android:layout_margin="20dp"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="150dp"
+        android:layout_width="250dp"
         android:layout_height="150dp"
         android:layout_gravity="center"
         android:src="@drawable/marvel" />
@@ -21,20 +21,29 @@
         android:hint="Insira o usuario"
         android:inputType="number"
         android:maxLength="100"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="TouchTargetSizeCheck"
+        android:padding="20dp"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Insira a senha"
         android:layout_margin="10dp"
+        android:hint="Insira a senha"
         android:inputType="textPassword"
         android:maxLength="100"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="TouchTargetSizeCheck"
+        android:padding="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         android:text="Entrar" />
 
     <Button
@@ -42,6 +51,6 @@
         android:layout_height="wrap_content"
         android:text="Sair" />
 
-
-
 </LinearLayout>
+
+    </LinearLayout>
