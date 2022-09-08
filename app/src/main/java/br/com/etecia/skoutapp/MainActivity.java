@@ -17,5 +17,10 @@ public class MainActivity extends AppCompatActivity {
         // Abrindo a janela activity_main
 
         setContentView(R.layout.activity_main);
+        //apresentar ao java os componentes xml
+        edtSenha = findViewById(R.id.edtSenha);
+        edtUsuario = findViewById(R.id.edtUsuario);
+        btnEntrar = findViewById(R.id.btnEntrar);
+        btnSair = findViewById(R.id.btnSair);
     }
 }
