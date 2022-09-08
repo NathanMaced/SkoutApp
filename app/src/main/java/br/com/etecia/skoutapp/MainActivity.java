@@ -3,6 +3,7 @@ package br.com.etecia.skoutapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -22,5 +23,13 @@ public class MainActivity extends AppCompatActivity {
         edtUsuario = findViewById(R.id.edtUsuario);
         btnEntrar = findViewById(R.id.btnEntrar);
         btnSair = findViewById(R.id.btnSair);
+
+        //criando a ação do botão sair
+        btnSair.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
     }
 }
