@@ -42,7 +42,13 @@ public class MainActivity extends AppCompatActivity {
                 usuario = edtUsuario.getText().toString();
                 senha = edtSenha.getText().toString();
 
-                Toast.makeText(getApplicationContext(),"Clique aqui!!!",Toast.LENGTH_SHORT).show();
+                //validadando o usuario
+
+                if (usuario.equals("etecia") && senha.equals("etecia")){
+
+                } else {Toast.makeText(getApplicationContext(),"Usuario ou senha ivalidos!",Toast.LENGTH_SHORT).show();}
+
+
             }
         });
     }
