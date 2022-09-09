@@ -35,6 +35,13 @@ public class MainActivity extends AppCompatActivity {
         btnEntrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //Criando a variavel
+                String usuario, senha;
+
+                //Atribuindo valores para a variavel
+                usuario = edtUsuario.getText().toString();
+                senha = edtSenha.getText().toString();
+
                 Toast.makeText(getApplicationContext(),"Clique aqui!!!",Toast.LENGTH_SHORT).show();
             }
         });
