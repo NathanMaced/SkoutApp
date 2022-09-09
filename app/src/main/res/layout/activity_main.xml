@@ -27,7 +27,7 @@
             android:background="@drawable/borda"
             android:drawableEnd="@drawable/ic_baseline_email"
             android:hint="Insira o email"
-            android:inputType="number"
+            android:inputType="text"
             android:maxLength="100"
             android:padding="20dp"
             tools:ignore="TouchTargetSizeCheck" />
